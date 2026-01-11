@@ -1,0 +1,89 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    display: flex;
+    width: 400px;
+    border: 2px #aaaaaa solid;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #aaa;
+    flex-wrap: wrap;
+}
+
+#screen{
+    padding: 10px 20px;
+    width: 88%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 32px;
+}
+
+.button-clear{
+    background-color: #faa;
+    width: 45%;
+    border: 3px solid black;
+    border-radius: 6px;
+    height: 53px;
+
+
+}
+
+.button-delete{
+    background-color: #aaf;
+    width: 45%;
+    height: 53px;
+    border: 3px solid black;
+    border-radius: 6px;
+
+}
+.button{
+    
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #eee;
+    font-size: 20px;
+    width: 23%;
+    margin: 2% 0px;
+    
+}
+.btn_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.github-link {
+    margin-left: 8px;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
